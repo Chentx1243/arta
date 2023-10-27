@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript练习2</title>
+    <script>
+        // function createp(){
+        //     var newp = document.createElement("P");
+        //     var ptext = document.createTextNode("Hello word");
+        //     newp.appendChild(ptext);
+        //     document.forms[0].appendChild(newp);
+        // }
+        var count = 1;
+        function inNode(count2){
+            var ma = count2;
+            var box = document.getElementById("box");
+            var h2 = document.createElement("h2");
+            var txt = document.createTextNode("插入段落"+ma);
+            h2.appendChild(txt);
+            var p = document.getElementsByName("p")[0];
+            box.insertBefore(h2,p);
+            count=count + 1;
+        }
+        function deleNode(){
+            var box = document.getElementById("box");
+            var p = document.getElementsByTagName("h2")[0];
+            box.removeChild(p);            
+        }
+    </script>
+</head>
+<body>
+    <div id="box">
+    </div>
+
+    <a href="javascript:inNode(count)">add</a>
+    <a href="javascript:deleNode()">delet</a>
+</body>
+</html>

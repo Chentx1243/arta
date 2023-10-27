@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: burlywood;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 10px;
+}
+.a{
+    text-align: left;
+    color: blueviolet;
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+#b{
+    text-align: center;
+    color: rgb(20, 240, 192);
+    margin: 0; 
+    font-family:"思源宋体";
+    letter-spacing: 9px;
+
+}
+#d.c{
+    text-align: right;
+    color: aqua;
+    margin: 0;
+    /* 修改p标签的外边距为0 */
+    font-variant:small-caps;
+    /* 将小写转化为大写 */
+    
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    /* ↑修改p标签的外边距为0 */
+}
+#pd{
+    color: blue;
+}

@@ -1,0 +1,93 @@
+.top{
+    font-size: 60px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+#wai{
+    /* 最外层淡蓝色div */
+    height: 1200px;
+    width: 1500px;
+    border-width: 3px;
+    border-color: rgb(161, 158, 158);
+    border-style:dashed;
+    margin: auto;
+    background-color: rgb(209, 229, 247);
+}
+.big{
+    height: 450px;
+    width: 1400px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    /* 消除内边距 */
+    padding: -3px;
+}
+.word{
+    height: 450px;
+    width: 1100px;
+    /* border-width: 1px;
+    border-style: solid; */
+    float: left;
+}
+.img1{
+    height: 450px;
+    width: 300px;
+    margin: -2px;
+    /* 设置图片边框（左侧） */
+    border-left: 1px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    float: left;
+    padding: 0px;
+}
+.name{
+    font-size: 33px;
+    color: rgb(58, 11, 144);
+    width: auto;
+    height: 45px;
+    padding-left: 38px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: 思源宋体 ;
+}
+/* massage诗人信息 */
+.ma{
+    height:300px;
+    width: 1030px;
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    /* background-color: blanchedalmond; */
+    font-size: 28px;
+    /* 首航缩进 */
+    text-indent: 2em;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+/* 分别修改两张图片的宽高 */
+#libai{
+    width:250px;
+    height: 350px;
+    
+}
+#dufu{
+    width:250px;
+    height: 350px;
+}
+/* 设置两张图片外边距达到居中效果 */
+img{
+    margin-top: 63px;
+    margin-left: 25px;
+}
+/* 设置分割线样式 */
+hr{
+    width: 1000px;
+}
+
+.foot{
+    text-align: center;
+    font-size: 30px;
+}

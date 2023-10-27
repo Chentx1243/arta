@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>javascript的前置练习</title>
+    <script>
+     var str1 = new String("Hello word");
+        // 下面是实现用户再prompt中输入一个年份，随后判断这个年份是否是闰年
+
+        // year函数用来实现判断用户输入数据的合法性
+    function year(){
+        var year = parseInt(prompt('请输入年份：'));
+        // var year = prompt('请输入年份');
+        if(year>=1900&&year<=2015){
+            culculate(year);//其他情况下正常计算是否为润年
+        }
+        else{
+            err(year);//输入的日期大于9999或小于1，报错          
+        }
+
+    }
+    // culculate用来实现年份是否是闰年的计算判断
+    function culculate(year){
+        if (year % 4 == 0 && year % 100 !== 0 || year % 400 == 0) {
+            alert('您输入的' + year + '年是闰年。');
+        }
+        else {
+            alert('您输入的' + year + '年是平年。');
+        }
+    }
+    // err函数用于提示用户输入的数据有误
+    function err(year){
+        if(year != NaN){
+            year = "一堆认不出来的东西";
+        }
+        alert('小伙子，你输入了 '+year+' 不合法哈，回去等通知吧（仅支持1900年-2015年的计算）')
+    }
+
+    //获取String对象
+    function Stringtest(){
+        alert('str1的字符长度为：  '+str1.length);
+    }
+    function finIndex(){
+        alert('str1的中o的下标为： '+str1.indexOf('o'));//查询o的下标
+    }
+
+
+    </script>
+</head>
+<body>
+    str1="Helow word" （对象已完成创建）
+    <br>
+    <!-- 弹窗测试(判断闰年) -->
+    <a href="JavaScript:year()">点击这里判断某个年份是不是润年</a>
+    <br>
+    <!-- 视频标签 -->
+    <!-- <video controls="controls" loop="loop" height="600px" width="300px" src="./vid/run.mp4"></video> -->
+    <a href="javascript:Stringtest()">点击这里查看str1中的字符长度</a>
+    <br>
+    <a href="javascript:finIndex()">点击这里查看str1中的字符长度</a>
+</body>

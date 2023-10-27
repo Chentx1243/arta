@@ -1,0 +1,8 @@
+@keyframes qiqiu{
+    from{left: 150px;}
+    to  {left: 900px;}
+}
+div{
+    background:url(../img/miao.png) no-repeat;
+
+}

@@ -1,0 +1,31 @@
+div{
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+}
+img{
+    width: 200px;
+    height: 100px;
+    /* transform: rotate(0); */
+    border-radius: 200px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2s;
+}
+img:hover{
+    transform: rotate(0deg);
+    /* transform:translate(200px,390px); */
+    transform:scale(1.6);
+    border-radius: 6px;
+    /* transition-property: all;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2s; */
+
+}
+img:active{
+    transform:scale(1.45);
+
+    /* transform:rotate(180deg); */
+}

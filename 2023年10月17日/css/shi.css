@@ -1,0 +1,110 @@
+.box{
+    border-style: solid;
+    border-color: black;
+    width: 160px;
+    height: 230px;
+    /* 设置位置模式与3d视距 */
+    position: relative;
+    perspective: 260px;
+    float: left;
+}
+.box img{
+    /* 控制两张图片重合在一起 */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* 设置box1中img的动画切换过度效果 */
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*面向背面时隐藏图片 */
+    backface-visibility: hidden;
+}
+/* 设置动效 鼠标放上去实现Y轴旋转 */
+
+.i1{
+    transform:rotateY(-180deg);
+}
+.box:hover .i1{
+    transform:rotateY(0deg);
+}
+.box:hover .i2{
+    transform:rotateY(180deg);
+}
+/* 点击后实现轻微收缩效果 */
+.box:active .i1{
+    transform: scale(0.85);
+}
+
+/* 第二个盒子效果设置 */
+.box2{
+    border-style: solid;
+    border-color: black;
+    width: 160px;
+    height: 230px;
+    position: relative;
+    perspective: 260px;
+    float: left;
+}
+.box2 img{
+        /* 控制两张图片重合在一起 */
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        /* 设置box1中img的动画切换过度效果 */
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        /*也可这样实现：
+          transition:all 1s ease 0s (所有元素 1s 匀速 延迟0s)
+        */
+        /*面向背面时隐藏图片 */
+        backface-visibility: hidden;
+}
+/* 设置动效 鼠标放上去实现X轴旋转 */
+
+.i3{
+    transform:rotateX(-180deg);
+}
+.box2:hover .i3{
+    transform:rotateX(0deg);
+}
+.box2:hover .i4{
+    transform:rotateX(180deg);
+}
+/* 单击后缩小的效果 */
+.box2:active .i3{
+    transform: scale(0.85);
+}
+/* BOX3 */
+.box3{
+    border-style: solid;
+    border-color: black;
+    width: 160px;
+    height: 230px;
+    /* 设置位置模式与3d视距 */
+    position: relative;
+    perspective: 260px;
+    float: left;
+}
+.box3 img{
+     /* 控制两张图片重合在一起 */
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     /* 设置box1中img的动画切换过度效果 */
+     transition-property: all;
+     transition-duration: 2s;
+     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+     /*面向背面时隐藏图片 */
+     backface-visibility: hidden;
+}
+.i5{
+    transform: rotateX(-180deg);
+}
+.box3:active .i5{
+    transform: rotateX(0deg);
+}
+.box3:active .i6{
+    transform: rotateX(180deg);
+}

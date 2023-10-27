@@ -1,0 +1,25 @@
+.center{
+    text-align: center;
+}
+#img{
+    text-align: center;
+}
+#foot{
+    text-align: center;
+}
+*{
+    background-color: rgb(163, 230, 230);
+}
+#lan{
+    color: blue;
+}
+#zi{
+    color: rgb(114, 21, 201);
+    font-size: 21px;
+}
+p{
+    color: rgb(47, 92, 240);
+}
+.world{
+    text-align: center;
+}

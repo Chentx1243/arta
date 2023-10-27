@@ -1,0 +1,55 @@
+.small{
+    width:140px ;
+    font-size: 17px;
+    
+}
+/* 所有span右侧浮动 贴齐表格框框 */
+span{
+    margin: 0px;
+    float: right;
+}
+/* 表格外的黑框 */
+#wai{
+    margin-left: auto;
+    margin-right: auto;
+    height: 690px;
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+/* 单独调整title1与titile2的浮动方式 */
+#title{
+    font-size: 25px;
+    float: none;
+}
+#title2{
+    font-size: 16px;
+    float: none;
+}
+.important{
+    color: red;
+}
+/* input中的图标设置 */
+#inname{
+    background-image: url(../img/name.png);
+    background-repeat: no-repeat;
+    
+}
+#intele{
+    background-image: url(../img/phone.png);
+    background-repeat: no-repeat;
+}
+#inmail{
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+}
+/* 调整留言框高度 */
+#liuyan{
+    height: 190px;
+}
+.ad{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
