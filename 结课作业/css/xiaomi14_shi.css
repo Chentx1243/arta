@@ -1,0 +1,27 @@
+*{
+    margin: -2px;
+}
+.big_box{
+    background-color: rgb(16, 12, 12);
+    height: 100%;
+    width: 100%;
+}
+.big_box_w{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+
+}
+.word1{
+    font-size: 100px;
+    color: aliceblue;
+    line-height: 110px;
+    font-weight: 700;
+}
+.word_b{
+height: 50%;
+width: 50%;
+}
+.big_box img{
+    width: 100%;
+}

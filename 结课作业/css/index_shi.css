@@ -1,0 +1,74 @@
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(247, 151, 34);
+}
+/* 调整logo 大小 */
+.logo{
+    height: 45px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+/* 修改轮播图大小  */
+.carousel-inner .item img {
+    height: 466px;
+    min-width: 100%;
+}
+.navbar {
+    margin-bottom: 0;
+}
+/* 调整商品展示与轮播图的距离 */
+.case {
+    margin-top: 40px;
+    text-align: center;
+}
+/* 商品展示中图片大小 */
+.case .minimg {
+    max-height: 190px;
+}
+/* 调整大图大小 */
+.case .bigimg {
+    max-height: 300px;
+}
+/* 设置商品名称字体大小，并将字体设置为 Misans */
+.phone_name{
+    font-size: 36px;
+    font-family: misans;
+    margin-bottom: 0px;
+}
+.ad{
+    font-size: 16px;
+}
+.case .datu_name {
+    margin-top: 40px;
+    text-align: left;
+    font-family: misans;
+}
+.case .datu_ad{
+    margin-top: 10px;
+    text-align: left; 
+    font-family: misans;
+}
+.case .datu_pay{
+    margin-top: 10px;
+    text-align: left; 
+    font-family: misans;
+    color: rgb(30, 29, 29);
+    margin-bottom: 1px;
+}
+.case .datu_psize{
+    margin-top: 0px;
+    text-align: left; 
+    font-family: misans;
+}
+.case .datu_to{
+    margin-top: 0px;
+    text-align: left; 
+}
+
+.orther_ad{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}

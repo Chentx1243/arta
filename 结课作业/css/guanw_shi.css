@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.box1{
+    height: 80px;
+    width: auto;
+    background-color: rgba(2, 3, 3, 0);
+}
+.box1 li{
+    width: 90px;
+    display: block;
+    float: left;
+    /* 调整网页选项上下位置 */
+    line-height: 120px; 
+    
+} 
+#top{
+    width: 63%;
+    height: 120px;
+    /* background-color: rgb(175, 111, 235); */
+    float: right;
+    margin-right: 20px;
+}
+/* 导航栏连接点击效果 */
+.box1 a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(230, 228, 226);
+}
+.box1 a:visited{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(230, 228, 226);
+}
+#hight{
+    color: rgb(146, 24, 24);
+}
+.carousel-inner{
+    margin-top: 0px;
+}
+/* 背景颜色 */
+.black{
+    background-color: rgb(2, 3, 3);
+}
+.title_center{
+    width: 445px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-family: misans;
+}
+.pa_center{
+    width: 242px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* 控制轮播图大小 */
+.carousel-inner img{
+    max-height: 825px;
+    min-width: 1600px;
+}
+/* 照片展示 */
+.img_show{
+    height: 1800px;
+    width: 1700px;
+    background-color: rgb(2, 3, 3);
+    margin-top: 50px;
+}
+.img_show img{
+    /* 设置动画效果 */
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 30%;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+/* 照片动态效果 */
+.img_show img:hover{
+    transform: scale(1.2);
+}
+.img_show img:active{
+    transform: scale(1);
+}
